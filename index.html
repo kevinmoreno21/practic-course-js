@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manipulacion de DOM básica</title>
-    
-</head>
-<body>
+  </head>
+  <body>
     <h1>Manipulacion del DOM básica</h1>
 
     <p class="parrafito">Esto es un parrafo con clase</p>
     <p id="pid">Esto es un parrafo con ID</p>
 
-    <input type="text" placeholder="Escribe aqui">
-
-
-
+    <input type="number" placeholder="Ingresa un numero para modificar el resultado" />
+    <form id="form">
+      <input id="calculo1" type="number" placeholder="Ingresa el primer número" />
+      <input id="calculo2" type="number" placeholder="Ingresa el segundo número" />
+      <button type="button" id="btnCalcular">Calcular</button>
+      <p id="result"></p>
+    </form>
 
     <script src="dom-script.js"></script>
-</body>
+  </body>
 </html>
